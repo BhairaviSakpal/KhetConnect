@@ -1,0 +1,2 @@
+import {Link} from 'react-router-dom';
+import LanguageToggle from './LanguageToggle';export default function TopNav(){return <header className="topnav"><Link to="/" className="brand"><span className="brand-mark">🌾</span><span>Khet<span>Connect</span></span></Link><div className="top-actions"><span className="demo-pill">FRONTEND DEMO</span><LanguageToggle/><Link to="/login" className="btn btn-outline btn-small">Sign in</Link><Link to="/register" className="btn btn-primary btn-small">Get started</Link></div></header>}
